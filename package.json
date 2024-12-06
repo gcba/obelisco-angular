@@ -9,7 +9,7 @@
     "test": "ng test",
     "semantic-release": "semantic-release"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/animations": "^17.1.0",
     "@angular/common": "^17.1.0",
