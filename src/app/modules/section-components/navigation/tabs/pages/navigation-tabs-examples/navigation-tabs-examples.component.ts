@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TabsProps } from 'obelisco-angular/core/models';
+import { TabsProps } from 'projects/obelisco-angular-lib/core/models';
 import {
   NAVIGATION_TABS_EXAMPLE_SIMPLE_HTML,
   NAVIGATION_TABS_EXAMPLE_SIMPLE_ICON_HTML,

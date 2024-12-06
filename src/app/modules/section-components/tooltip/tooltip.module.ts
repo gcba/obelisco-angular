@@ -3,16 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { TooltipRoutingModule } from './tooltip-routing.module';
 import { TooltipComponent } from './tooltip.component';
-import { ONavModule } from 'obelisco-angular/nav';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
 import { TooltipApiComponent } from './pages/tooltip-api/tooltip-api.component';
 import { TooltipExamplesComponent } from './pages/tooltip-examples/tooltip-examples.component';
-import { OTableModule } from 'obelisco-angular/table';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';
-import { OTooltipModule } from 'obelisco-angular/tooltip';
+import { OTooltipModule } from 'projects/obelisco-angular-lib/tooltip';
 import { TabsLinkComponent } from 'src/app/components/tabs-link/tabs-link.component';
-import { OButtonModule } from 'obelisco-angular/button';
+import { OButtonModule } from 'projects/obelisco-angular-lib/button';
 
 @NgModule({
   declarations: [

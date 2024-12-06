@@ -5,8 +5,8 @@ import { NavigationHorizontalRoutingModule } from './navigation-horizontal-routi
 import { NavigationHorizontalComponent } from './navigation-horizontal.component';
 import { NavigationHorizontalApiComponent } from './pages/navigation-horizontal-api/navigation-horizontal-api.component';
 import { NavigationHorizontalExamplesComponent } from './pages/navigation-horizontal-examples/navigation-horizontal-examples.component';
-import { ONavModule } from 'obelisco-angular/nav';
-import { OTableModule } from 'obelisco-angular/table';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';

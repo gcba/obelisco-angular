@@ -2,7 +2,7 @@ import {
   DataSource,
   DropdownNavigationItem,
   DropdownSelectionItem,
-} from 'obelisco-angular/core/models';
+} from 'projects/obelisco-angular-lib/core/models';
 import { codeFormattingArrayList } from '../core/helpers/codeFormatting.helper';
 
 const formattedExampleTsCode = (

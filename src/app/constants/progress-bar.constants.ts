@@ -1,4 +1,4 @@
-import { DataSource } from 'obelisco-angular/core/models';
+import { DataSource } from 'projects/obelisco-angular-lib/core/models';
 
 export const PROGRESS_BAR_NAVIGATION = [
   {

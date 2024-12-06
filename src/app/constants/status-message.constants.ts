@@ -1,4 +1,4 @@
-import { DataSource, StatusMessageTypes } from 'obelisco-angular/core/models';
+import { DataSource, StatusMessageTypes } from 'projects/obelisco-angular-lib/core/models';
 
 interface StatusMessage {
   name: string;

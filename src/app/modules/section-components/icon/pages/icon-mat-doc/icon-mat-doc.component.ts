@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { EnumMaterialIcons } from 'obelisco-angular/core/models';
+import { EnumMaterialIcons } from 'projects/obelisco-angular-lib/core/models';
 
 @Component({
   selector: 'app-icon-mat-doc',

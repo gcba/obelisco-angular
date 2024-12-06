@@ -1,4 +1,4 @@
-import { AlertList, DataSource } from 'obelisco-angular/core/models';
+import { AlertList, DataSource } from 'projects/obelisco-angular-lib/core/models';
 
 export const ALERT_NAVIGATION = [
   {

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SearchbarItem } from 'obelisco-angular/core/models';
+import { SearchbarItem } from 'projects/obelisco-angular-lib/core/models';
 import {
   SEARCH_EXAMPLE_HTML,
   SEARCH_EXAMPLE_TS,

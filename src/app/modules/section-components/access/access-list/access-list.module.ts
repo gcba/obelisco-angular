@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { OAccessModule } from 'obelisco-angular/access';
-import { ONavModule } from 'obelisco-angular/nav';
-import { OTableModule } from 'obelisco-angular/table';
+import { OAccessModule } from 'projects/obelisco-angular-lib/access';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';

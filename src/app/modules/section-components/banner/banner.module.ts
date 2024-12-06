@@ -5,14 +5,14 @@ import { BannerRoutingModule } from './banner-routing.module';
 import { BannerComponent } from './banner.component';
 import { BannerApiComponent } from './pages/banner-api/banner-api.component';
 import { BannerExamplesComponent } from './pages/banner-examples/banner-examples.component';
-import { ONavModule } from 'obelisco-angular/nav';
-import { OBannerModule } from 'obelisco-angular/banner';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
+import { OBannerModule } from 'projects/obelisco-angular-lib/banner';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';
-import { OTableModule } from 'obelisco-angular/table';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { TabsLinkComponent } from 'src/app/components/tabs-link/tabs-link.component';
-import { OButtonModule } from 'obelisco-angular/button';
+import { OButtonModule } from 'projects/obelisco-angular-lib/button';
 
 @NgModule({
   declarations: [BannerComponent, BannerApiComponent, BannerExamplesComponent],

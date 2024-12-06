@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EnumBoxIcons } from 'obelisco-angular/core/models';
+import { EnumBoxIcons } from 'projects/obelisco-angular-lib/core/models';
 
 @Component({
   selector: 'app-icon-bx-doc',

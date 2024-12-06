@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { TabsRoutingModule } from './tabs-routing.module';
 import { TabsComponent } from './tabs.component';
-import { ONavModule } from 'obelisco-angular/nav';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
 import { NavigationTabsApiComponent } from './pages/navigation-tabs-api/navigation-tabs-api.component';
 import { NavigationTabsExamplesComponent } from './pages/navigation-tabs-examples/navigation-tabs-examples.component';
-import { OTableModule } from 'obelisco-angular/table';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';

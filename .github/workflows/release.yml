@@ -30,7 +30,7 @@ jobs:
 
       - name: Pack the library
         run: |
-          cd dist/obelisco-angular
+          cd dist/obelisco-angular-lib
           npm pack
 
       - name: Set up npm authentication
@@ -38,7 +38,7 @@ jobs:
 
       - name: Publish to NPM
         run: |
-          cd dist/obelisco-angular
+          cd dist/obelisco-angular-lib
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

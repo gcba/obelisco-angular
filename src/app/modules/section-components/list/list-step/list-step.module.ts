@@ -5,12 +5,12 @@ import { ListStepRoutingModule } from './list-step-routing.module';
 import { ListStepComponent } from './list-step.component';
 import { ListStepApiComponent } from './pages/list-step-api/list-step-api.component';
 import { ListStepExamplesComponent } from './pages/list-step-examples/list-step-examples.component';
-import { ONavModule } from 'obelisco-angular/nav';
-import { OTableModule } from 'obelisco-angular/table';
+import { ONavModule } from 'projects/obelisco-angular-lib/nav';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';
-import { OListModule } from 'obelisco-angular/list';
+import { OListModule } from 'projects/obelisco-angular-lib/list';
 import { TabsLinkComponent } from 'src/app/components/tabs-link/tabs-link.component';
 
 @NgModule({

@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CustomContentRoutingModule } from './custom-content-routing.module';
 import { CustomContentComponent } from './custom-content.component';
-import { OTableModule } from 'obelisco-angular/table';
+import { OTableModule } from 'projects/obelisco-angular-lib/table';
 import { TabsLinkComponent } from 'src/app/components/tabs-link/tabs-link.component';
 import { ViewerComponent } from 'src/app/components/viewer/viewer.component';
 import { ClipboardDirective } from 'src/app/shared/directives/copy/clipboard.directive';
 import { HighlightJsModule } from 'ngx-highlight-js';
 import { CustomContentExamplesComponent } from './pages/custom-content-examples/custom-content-examples.component';
 import { CustomContentApiComponent } from './pages/custom-content-api/custom-content-api.component';
-import { OCustomContentDirective } from 'obelisco-angular/directives';
-import { OBlockModule } from 'obelisco-angular/block';
-import { OButtonModule } from 'obelisco-angular/button';
-import { OAlertModule } from 'obelisco-angular/alert';
+import { OCustomContentDirective } from 'projects/obelisco-angular-lib/directives';
+import { OBlockModule } from 'projects/obelisco-angular-lib/block';
+import { OButtonModule } from 'projects/obelisco-angular-lib/button';
+import { OAlertModule } from 'projects/obelisco-angular-lib/alert';
 
 @NgModule({
   declarations: [
