@@ -1,6 +1,6 @@
 {
-  "name": "obelisco-angular",
-  "version": "1.0.0",
+  "name": "obelisco-angular-lib",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0",

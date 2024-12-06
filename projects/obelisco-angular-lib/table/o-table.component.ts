@@ -12,7 +12,7 @@ import {
   Renderer2,
 } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
-import { Column, DataSource, TableCheckbox } from 'projects/obelisco-angular-lib/core/models';
+import { Column, DataSource, TableCheckbox } from 'obelisco-angular-lib/core/models';
 
 @Component({
   selector: 'o-table',

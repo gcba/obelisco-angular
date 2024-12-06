@@ -7,8 +7,8 @@ import {
   Renderer2,
   ViewChildren,
 } from '@angular/core';
-import { NavHorizontalItems } from 'projects/obelisco-angular-lib/core/models';
-import { Sizes } from 'projects/obelisco-angular-lib/core/models';
+import { NavHorizontalItems } from 'obelisco-angular-lib/core/models';
+import { Sizes } from 'obelisco-angular-lib/core/models';
 
 @Component({
   selector: 'o-nav-horizontal',

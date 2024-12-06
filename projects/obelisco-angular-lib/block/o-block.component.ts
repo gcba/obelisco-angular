@@ -5,7 +5,7 @@ import {
   ElementRef,
   Input,
 } from '@angular/core';
-import { OCustomContentDirective } from 'projects/obelisco-angular-lib/directives';
+import { OCustomContentDirective } from 'obelisco-angular-lib/directives';
 
 @Component({
   selector: 'o-block',

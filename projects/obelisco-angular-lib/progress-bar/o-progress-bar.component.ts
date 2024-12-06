@@ -7,9 +7,9 @@ import {
   Output,
 } from '@angular/core';
 import { Subject, takeUntil } from 'rxjs';
-import { AbstractStep } from 'projects/obelisco-angular-lib/core/abstracts';
-import { ProgressBarTypes } from 'projects/obelisco-angular-lib/core/models';
-import { StepService } from 'projects/obelisco-angular-lib/core/services';
+import { AbstractStep } from 'obelisco-angular-lib/core/abstracts';
+import { ProgressBarTypes } from 'obelisco-angular-lib/core/models';
+import { StepService } from 'obelisco-angular-lib/core/services';
 
 const MAX_WIDTH: number = 100;
 const INICIAL_STEP: number = 0;

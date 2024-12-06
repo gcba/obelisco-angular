@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { SectionComponentsRoutingModule } from './section-components-routing.module';
-import { OCardModule } from 'projects/obelisco-angular-lib/card';
+//import { OCardModule } from 'projects/obelisco-angular-lib/card';
 import { SectionComponentsComponent } from './section-components.component';
 import { ONavModule } from 'projects/obelisco-angular-lib/nav';
 
@@ -11,7 +11,7 @@ import { ONavModule } from 'projects/obelisco-angular-lib/nav';
   imports: [
     CommonModule,
     SectionComponentsRoutingModule,
-    OCardModule,
+    //OCardModule,
     ONavModule,
   ],
 })

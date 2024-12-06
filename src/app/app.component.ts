@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet, RouterModule  } from '@angular/router';
 import { NavbarRoute } from 'projects/obelisco-angular-lib/core/models';
-import { ONavbarModule } from 'projects/obelisco-angular-lib/navbar';
+//import { ONavbarModule } from 'projects/obelisco-angular-lib/navbar';
 import {
   COMPONENTS_NAVIGATION,
   OTHERS_NAVIGATION,
@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ONavbarModule, HighlightJsModule, RouterModule, CommonModule ],
+  imports: [RouterOutlet, HighlightJsModule, RouterModule, CommonModule ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })

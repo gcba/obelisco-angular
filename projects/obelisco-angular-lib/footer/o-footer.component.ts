@@ -4,8 +4,8 @@ import {
   Link,
   Network,
   Phone,
-} from 'projects/obelisco-angular-lib/core/models';
-import { OCustomContentDirective } from 'projects/obelisco-angular-lib/directives';
+} from 'obelisco-angular-lib/core/models';
+import { OCustomContentDirective } from 'obelisco-angular-lib/directives';
 
 const PHONE_LIST = [
   {

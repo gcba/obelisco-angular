@@ -1,6 +1,6 @@
 import { Component, ContentChild, Input } from '@angular/core';
-import { OCustomContentDirective } from 'projects/obelisco-angular-lib/directives';
-import { AlertList, AlertTypes } from 'projects/obelisco-angular-lib/core/models';
+import { OCustomContentDirective } from 'obelisco-angular-lib/directives';
+import { AlertList, AlertTypes } from 'obelisco-angular-lib/core/models';
 
 @Component({
   selector: 'o-alert',

@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { OAlertModule } from 'projects/obelisco-angular-lib/alert';
-import { OBannerModule } from 'projects/obelisco-angular-lib/banner';
-import { OBlockModule } from 'projects/obelisco-angular-lib/block';
-import { OButtonModule } from 'projects/obelisco-angular-lib/button';
-import { OSpinnerModule } from 'projects/obelisco-angular-lib/spinner';
-import { OProgressBarModule } from 'projects/obelisco-angular-lib/progress-bar';
-import { OFooterModule } from 'projects/obelisco-angular-lib/footer';
-import { ODropdownModule } from 'projects/obelisco-angular-lib/dropdown';
+import { OAlertModule } from 'obelisco-angular-lib/alert';
+import { OBannerModule } from 'obelisco-angular-lib/banner';
+import { OBlockModule } from 'obelisco-angular-lib/block';
+import { OButtonModule } from 'obelisco-angular-lib/button';
+import { OSpinnerModule } from 'obelisco-angular-lib/spinner';
+import { OProgressBarModule } from 'obelisco-angular-lib/progress-bar';
+import { OFooterModule } from 'obelisco-angular-lib/footer';
+import { ODropdownModule } from 'obelisco-angular-lib/dropdown';
 
 // import { OAccessModule } from 'obelisco-angular/access';
 // import { OBreadcrumbModule } from 'obelisco-angular/breadcrumb';
