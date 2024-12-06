@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GH_ANGULAR_TOKEN }}
-          branch: gh-pages
-          folder: ./dist/obelisco-angular
+          publish_branch: gh-pages
+          publish_dir: ./dist/obelisco-angular
