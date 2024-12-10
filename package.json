@@ -33,9 +33,11 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
     "@semantic-release/npm": "^12.0.1",
     "@semantic-release/release-notes-generator": "^14.0.1",
     "@types/jasmine": "~5.1.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -59,51 +61,12 @@
       "master"
     ],
     "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits",
-          "releaseRules": [
-            {
-              "type": "feat",
-              "release": "minor"
-            },
-            {
-              "type": "fix",
-              "release": "patch"
-            },
-            {
-              "type": "perf",
-              "release": "patch"
-            },
-            {
-              "type": "docs",
-              "release": false
-            },
-            {
-              "type": "style",
-              "release": false
-            },
-            {
-              "type": "refactor",
-              "release": false
-            },
-            {
-              "type": "test",
-              "release": false
-            },
-            {
-              "type": "chore",
-              "release": false
-            }
-          ]
-        }
-      ],
+      "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "@semantic-release/npm",
-      "@semantic-release/git",
       "@semantic-release/github"
-    ]
+    ],
+    "preset": "conventionalcommits"
   }
 }
