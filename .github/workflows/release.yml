@@ -36,15 +36,15 @@ jobs:
       - name: Set up npm authentication
         run: npm set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
 
+      - name: Run Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
+
       - name: Publish to NPM
         run: |
           cd dist/obelisco-angular-lib
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Run Semantic Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
